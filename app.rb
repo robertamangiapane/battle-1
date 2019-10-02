@@ -3,7 +3,7 @@ require 'sinatra/base'
 class Battle < Sinatra::Base
   set :session_secret, 'super secret'
   get '/' do
-    'FIGHT!!dadwqa'
+    'Testing infrastructure working!'
   end
 
   # start the server if ruby file executed directly
